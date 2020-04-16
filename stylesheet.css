@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    text-align: center;
+    padding: 40px 40px;
+    background-color: blueviolet;
+    font-size: 30px;
+    ;
+
+}
+
+header h1 {
+    display: inline-block;
+}
+
+.bg {
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+
+.container{
+  padding: 5% 30%;
+}
+
+.bio{
+    background-color: cornsilk;
+    padding: 20px;
+}
+
+.bio h2 {
+    border-color: brown;
+    padding: 10px;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.bio em{
+    font-size: 30px;
+
+}
+
+.bio p{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.itali {
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.form {
+    background-color: rgb(228, 173, 183);
+    padding: 20px;
+    
+}
+
+input {
+    font-family: 'Playfair Display', serif;
+    padding: 5px;
+    border: 0px;
+    background-color: rgb(233, 192, 192);
+}
+textarea{
+    font-family: 'Playfair Display', serif;
+    padding: 5px;
+    border: 0px;
+    background-color: rgb(233, 192, 192);
+    margin-bottom: 20px;
+}
+
+.form a{
+    padding: 15px;
+   
+    background-color: cornflowerblue;
+    text-decoration: none;
+}
+
+footer{
+    display: inline-flex;
+    padding-left:30%;
+    padding-right: 10%;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.facebook {
+    padding: 10px;
+    background-color: lightblue;
+    margin-left: 10px;
+    
+}
+
+.twitter{
+     padding: 10px;
+     background-color: lightgreen;
+     margin-left: 10px;
+}
+
+.instagram{
+     padding: 10px;
+     background-color: lightseagreen;
+     margin-left: 10px;
+}
+
+.last{
+    float: right;
+}
+)
